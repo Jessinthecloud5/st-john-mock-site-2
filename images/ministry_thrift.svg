@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" fill="none" stroke="currentColor">
+  <defs>
+    <linearGradient id="thrift-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ccfbf1" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle border -->
+  <circle cx="50" cy="50" r="45" stroke="#e2e8f0" stroke-width="1.5" fill="#fafaf9" />
+
+  <!-- Shopping Bag Body -->
+  <path d="M 32 42 L 68 42 L 72 80 L 28 80 Z" fill="#ffffff" stroke="#12344E" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- Bag Handle -->
+  <path d="M 42 42 C 42 30, 58 30, 58 42" stroke="#016A77" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Heart graphic on bag -->
+  <path d="M 50 63 C 47 58, 41 58, 41 63 C 41 68, 50 73, 50 73 C 50 73, 59 68, 59 63 C 59 58, 53 58, 50 63 Z" fill="#016A77" stroke="#016A77" stroke-width="0.5" />
+</svg>

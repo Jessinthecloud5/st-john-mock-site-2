@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" fill="none" stroke="currentColor">
+  <!-- Outer circle border -->
+  <circle cx="50" cy="50" r="45" stroke="#e2e8f0" stroke-width="1.5" fill="#fafaf9" />
+
+  <!-- House Body -->
+  <rect x="30" y="48" width="40" height="30" fill="#ffffff" stroke="#12344E" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- House Roof -->
+  <polygon points="26,48 50,28 74,48" fill="#ffffff" stroke="#12344E" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- Door (arched) -->
+  <path d="M 45 78 L 45 66 A 5 5 0 0 1 55 66 L 55 78 Z" fill="#fafaf9" stroke="#12344E" stroke-width="1.5" />
+
+  <!-- Chimney -->
+  <rect x="60" y="32" width="6" height="12" fill="#ffffff" stroke="#12344E" stroke-width="1.5" />
+
+  <!-- Heart graphic on roof -->
+  <path d="M 50 43 C 48.5 40, 45.5 40, 45.5 43 C 45.5 46, 50 49, 50 49 C 50 49, 54.5 46, 54.5 43 C 54.5 40, 51.5 40, 50 43 Z" fill="#016A77" stroke="#016A77" stroke-width="0.5" />
+</svg>

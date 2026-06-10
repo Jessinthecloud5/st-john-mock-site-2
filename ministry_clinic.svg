@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" fill="none" stroke="currentColor">
+  <defs>
+    <linearGradient id="clinic-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fecdd3" />
+      <stop offset="100%" stop-color="#e11d48" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle border -->
+  <circle cx="50" cy="50" r="45" stroke="#e2e8f0" stroke-width="1.5" fill="#fafaf9" />
+
+  <!-- Medical Cross -->
+  <path d="M 42 20 L 58 20 L 58 36 L 74 36 L 74 52 L 58 52 L 58 68 L 42 68 L 42 52 L 26 52 L 26 36 L 42 36 Z" fill="#ffffff" stroke="#016A77" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- Small Heart in Center of Cross -->
+  <path d="M 50 49 C 48 45, 43 45, 43 49 C 43 53, 50 57, 50 57 C 50 57, 57 53, 57 49 C 57 45, 52 45, 50 49 Z" fill="#016A77" stroke="#016A77" stroke-width="0.5" />
+</svg>

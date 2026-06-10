@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%" fill="none" stroke="currentColor">
+  <defs>
+    <linearGradient id="sunshine-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer circle border -->
+  <circle cx="50" cy="50" r="45" stroke="#e2e8f0" stroke-width="1.5" fill="#fafaf9" />
+  
+  <!-- Sun base -->
+  <circle cx="50" cy="42" r="16" fill="url(#sunshine-grad)" stroke="#016A77" stroke-width="1.5" />
+  
+  <!-- Sun rays -->
+  <path d="M 50 18 L 50 22 M 50 62 L 50 66 M 26 42 L 30 42 M 70 42 L 74 42 M 33 25 L 36 28 M 67 25 L 64 28 M 33 59 L 36 56 M 67 59 L 64 56" stroke="#016A77" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Hands / Heart at the bottom -->
+  <path d="M 32 75 C 32 68, 40 68, 44 71 C 46 66, 54 66, 56 71 C 60 68, 68 68, 68 75 C 68 82, 50 88, 50 88 C 50 88, 32 82, 32 75 Z" fill="#ffffff" stroke="#12344E" stroke-width="1.5" stroke-linejoin="round" />
+</svg>

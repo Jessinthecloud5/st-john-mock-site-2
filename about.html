@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - St. John Presbyterian Church</title>
+  <meta name="description" content="Learn about the history, beliefs, doctrinal confessions, and meet the staff of St. John Presbyterian Church in Tampa, FL.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- --- HEADER & NAVIGATION --- -->
+  <header class="header" id="main-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" id="header-logo-link">
+        <img src="images/logo.png" alt="St. John Presbyterian Church Logo" class="header-logo-img" id="header-logo-img">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu-wrapper">
+        <ul class="nav-menu" id="desktop-nav">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="new-here.html" class="nav-link">New Here?</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
+          <li><a href="missions.html" class="nav-link">Missions</a></li>
+          <li><a href="sermons.html" class="nav-link">Sermons</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="index.html#give-section" class="btn btn-accent btn-give" id="header-give-btn">Give</a>
+        <button class="hamburger" id="menu-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu Overlay -->
+  <div class="mobile-drawer-overlay" id="menu-overlay"></div>
+  
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-menu-drawer">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="new-here.html" class="mobile-nav-link">New Here?</a></li>
+      <li><a href="about.html" class="mobile-nav-link active">About</a></li>
+      <li><a href="missions.html" class="mobile-nav-link">Missions</a></li>
+      <li><a href="sermons.html" class="mobile-nav-link">Sermons</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div style="margin-top: 2rem;">
+      <a href="index.html#give-section" class="btn btn-accent" style="width: 100%;" id="mobile-give-btn">Give Now</a>
+    </div>
+  </div>
+
+  <!-- --- HERO SECTION --- -->
+  <section class="hero-subpage fade-in-element visible">
+    <div class="container">
+      <h1 class="hero-subpage-title">About Us</h1>
+      <p class="hero-subpage-subtitle">
+        We exist to glorify God by knowing Him, growing together, and serving others in our community and beyond.
+      </p>
+    </div>
+  </section>
+
+  <!-- --- OUR CHURCH SECTION --- -->
+  <section class="section fade-in-element">
+    <div class="container grid-2">
+      <!-- Left side: Image layout -->
+      <div style="border: 1px solid var(--color-border); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md); background-color: #ffffff; padding: 2rem;">
+        <img src="images/church_illustration.svg" alt="St. John Presbyterian Church Illustration" style="width: 100%; height: auto; display: block;" />
+      </div>
+      
+      <!-- Right side: Church Text -->
+      <div>
+        <h2 style="font-size: 2.2rem; margin-bottom: 2rem; border-bottom: 2px solid var(--color-accent); padding-bottom: 0.75rem; display: inline-block;">Our Church</h2>
+        <p style="font-size: 1.1rem; line-height: 1.8; margin-bottom: 1.5rem; color: var(--color-primary-dark); font-weight: 500;">
+          St. John Presbyterian Church is a Christ-centered community committed to worshiping God, growing in His Word, and serving others with His love.
+        </p>
+        <p style="font-size: 1rem; line-height: 1.7; margin-bottom: 1.5rem; color: var(--color-text-main);">
+          For decades, we have been a place where people from all walks of life can find hope, build meaningful relationships, and deepen their faith in Jesus Christ.
+        </p>
+        <p style="font-size: 1rem; line-height: 1.7; color: var(--color-text-main);">
+          Whether you are exploring faith or looking for a church home, we are glad you're here and invite you to become a part of our story.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- OUR BELIEFS SECTION --- -->
+  <section class="section section-bg fade-in-element">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-title-decor">
+          <h2>Our Beliefs</h2>
+        </div>
+        <p class="section-subtitle">
+          We are a Bible-believing church that holds to the historic Christian faith as summarized in our denominational confessions. Our beliefs shape how we worship, grow, and serve together.
+        </p>
+      </div>
+
+      <!-- Left card + Right accordions -->
+      <div class="beliefs-layout">
+        
+        <!-- Left: rooted text -->
+        <div class="beliefs-image-card">
+          <div class="beliefs-image-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+              <path d="M 12 6 L 12 14 M 9 9 L 15 9" stroke="var(--color-accent)" stroke-width="2" />
+            </svg>
+          </div>
+          <div class="beliefs-image-text">
+            Our beliefs are rooted in Scripture and guide everything we do as a church family.
+          </div>
+        </div>
+
+        <!-- Right: Accordion of core beliefs -->
+        <div class="accordion-group" style="margin: 0; width: 100%;">
+          
+          <!-- Item 1 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>What is the Bible?</span>
+              <span class="accordion-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              We believe the Bible is the written Word of God, inspired by the Holy Spirit, and is the infallible and trustworthy authority for faith and life.
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>Who is God?</span>
+              <span class="accordion-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              We believe in one God, eternally existing in three persons: Father, Son, and Holy Spirit, who are co-equal in power and glory.
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>Who is Jesus Christ?</span>
+              <span class="accordion-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              We believe that Jesus Christ is the eternal Son of God, who became man, lived a sinless life, died on the cross to save us from sin, rose bodily from the dead, and will return in glory.
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>What is the Holy Spirit?</span>
+              <span class="accordion-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              We believe the Holy Spirit is present in the world to make people aware of their need for Jesus Christ, to live within every believer from the moment of salvation, and to guide, equip, and empower them for service.
+            </div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>What is salvation?</span>
+              <span class="accordion-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              We believe salvation is a free gift from God, received through faith alone in Jesus Christ, whose death and resurrection purchased our forgiveness and reconciliation with God.
+            </div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>What is the church?</span>
+              <span class="accordion-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              We believe the church is the spiritual body of Christ, made up of all believers throughout history, called to worship God, grow in faith, and carry out Christ's mission in the world.
+            </div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>What happens after we die?</span>
+              <span class="accordion-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              We believe in the bodily resurrection of the dead, the eternal life and joy of believers in the presence of God, and the renewal of all creation.
+            </div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>How do we live out our faith?</span>
+              <span class="accordion-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+            </button>
+            <div class="accordion-content">
+              We live out our faith by loving God with all our heart, soul, mind, and strength, and by loving our neighbors as ourselves through service, compassion, and justice.
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- --- MEET OUR STAFF SECTION --- -->
+  <section class="section fade-in-element" id="staff">
+    <div class="container">
+      <div class="section-title-wrap">
+        <div class="section-title-decor">
+          <h2>Meet Our Staff</h2>
+        </div>
+        <p class="section-subtitle">
+          Our staff is here to serve you and help you grow in your relationship with Christ.
+        </p>
+      </div>
+
+      <div class="grid-4">
+        
+        <!-- Staff 1 -->
+        <div class="staff-card">
+          <div class="staff-photo-wrap">
+            <img src="images/staff_john.svg" alt="Pastor John Doe" />
+          </div>
+          <h3 class="staff-name">John Doe</h3>
+          <div class="staff-role">Senior Pastor</div>
+          <p class="staff-bio">
+            John provides spiritual leadership and oversees the ministries of our church.
+          </p>
+          <div class="staff-contact">
+            <a href="mailto:pastor@stjohnpres.com" class="staff-contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              pastor@stjohnpres.com
+            </a>
+            <a href="tel:8135550101" class="staff-contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              (813) 555-0101
+            </a>
+          </div>
+        </div>
+
+        <!-- Staff 2 -->
+        <div class="staff-card">
+          <div class="staff-photo-wrap">
+            <img src="images/staff_jane.svg" alt="Pastor Jane Smith" />
+          </div>
+          <h3 class="staff-name">Jane Smith</h3>
+          <div class="staff-role">Associate Pastor</div>
+          <p class="staff-bio">
+            Jane leads our discipleship ministries and pastoral care efforts.
+          </p>
+          <div class="staff-contact">
+            <a href="mailto:jane@stjohnpres.com" class="staff-contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              jane@stjohnpres.com
+            </a>
+            <a href="tel:8135550102" class="staff-contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              (813) 555-0102
+            </a>
+          </div>
+        </div>
+
+        <!-- Staff 3 -->
+        <div class="staff-card">
+          <div class="staff-photo-wrap">
+            <img src="images/staff_michael.svg" alt="Michael Lee" />
+          </div>
+          <h3 class="staff-name">Michael Lee</h3>
+          <div class="staff-role">Director of Worship</div>
+          <p class="staff-bio">
+            Michael oversees our worship services and music ministries.
+          </p>
+          <div class="staff-contact">
+            <a href="mailto:michael@stjohnpres.com" class="staff-contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              michael@stjohnpres.com
+            </a>
+            <a href="tel:8135550103" class="staff-contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              (813) 555-0103
+            </a>
+          </div>
+        </div>
+
+        <!-- Staff 4 -->
+        <div class="staff-card">
+          <div class="staff-photo-wrap">
+            <img src="images/staff_emily.svg" alt="Emily Davis" />
+          </div>
+          <h3 class="staff-name">Emily Davis</h3>
+          <div class="staff-role">Children's Director</div>
+          <p class="staff-bio">
+            Emily is passionate about helping children grow in their faith and love for Jesus.
+          </p>
+          <div class="staff-contact">
+            <a href="mailto:emily@stjohnpres.com" class="staff-contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              emily@stjohnpres.com
+            </a>
+            <a href="tel:8135550104" class="staff-contact-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              (813) 555-0104
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="staff-footer-btn">
+        <a href="javascript:void(0)" onclick="showToast('Staff Directory', 'Direct office list loading...')" class="btn btn-outline">View All Staff</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- HAVE A QUESTION BANNER --- -->
+  <section class="section section-bg fade-in-element" style="padding: 3rem 0;">
+    <div class="container">
+      <div class="banner-block">
+        <div class="banner-block-inner" style="gap:2rem;">
+          <div class="banner-block-icon flex-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+              <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+            </svg>
+          </div>
+          <div style="flex-grow:1; text-align:left;" class="banner-block-text">
+            <h3 style="font-size: 1.4rem; margin-bottom:0.25rem;">HAVE A QUESTION OR NEED TO CONNECT?</h3>
+            <p style="font-size: 1rem; color: var(--color-text-muted);">We'd love to hear from you. Reach out to our church office and we'll be happy to assist you.</p>
+          </div>
+          <a href="contact.html#contact-anchor" class="btn btn-filled" style="flex-shrink:0;">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="footer" id="give-section">
+    <div class="container footer-grid">
+      
+      <!-- Column 1: Logo & Info -->
+      <div class="footer-col-logo">
+        <div class="footer-logo-wrap">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M 12 2 L 12 22 M 5 9 L 19 9" />
+            <circle cx="12" cy="9" r="3" />
+          </svg>
+          <div class="footer-logo-title">St. John<br><span style="font-family:var(--font-sans); font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-border-dark);">Presbyterian Church</span></div>
+        </div>
+        <p class="footer-desc">
+          Love God. Love People. Serve Together.
+        </p>
+        <div class="footer-social-icons">
+          <a href="https://facebook.com" class="footer-social-link" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+          <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://youtube.com" class="footer-social-link" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.517 3.545 12 3.545 12 3.545s-7.517 0-9.388.508a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.871.508 9.388.508 9.388.508s7.517 0 9.388-.508a3.002 3.002 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Contact Info -->
+      <div class="footer-col-info">
+        <h4 class="footer-col-title">Contact Us</h4>
+        <button class="footer-accordion-header">
+          <span>Contact Us</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="footer-accordion-content">
+          <ul class="footer-info-list">
+            <li class="footer-info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>4120 N. MacDill Ave.<br>Tampa, FL 33607</span>
+            </li>
+            <li class="footer-info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>(813) 555-0199</span>
+            </li>
+            <li class="footer-info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span><a href="mailto:info@stjohnpres.com">info@stjohnpres.com</a></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Column 3: Service Times -->
+      <div class="footer-col-times">
+        <h4 class="footer-col-title">Service Times</h4>
+        <button class="footer-accordion-header">
+          <span>Service Times</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="footer-accordion-content">
+          <div class="footer-service-times">
+            <div class="footer-time-row">
+              <span class="footer-time-label">Sunshine Class</span>
+              <span class="footer-time-value">Sundays at 9:45 AM</span>
+            </div>
+            <div class="footer-time-row">
+              <span class="footer-time-label">Adult Sunday School</span>
+              <span class="footer-time-value">Sundays at 10:30 AM</span>
+            </div>
+            <div class="footer-time-row">
+              <span class="footer-time-label">Worship Service</span>
+              <span class="footer-time-value">Sundays at 11:30 AM</span>
+            </div>
+            <div class="footer-time-row" style="border:none;">
+              <span class="footer-time-label">Facebook Livestream</span>
+              <span class="footer-time-value">Sundays at 11:30 AM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 4: Quick Links -->
+      <div class="footer-col-nav">
+        <h4 class="footer-col-title">Quick Links</h4>
+        <button class="footer-accordion-header">
+          <span>Quick Links</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="footer-accordion-content">
+          <ul class="footer-nav-list">
+            <li><a href="#" class="footer-nav-link" data-open-modal="prayer">Prayer Requests</a></li>
+            <li><a href="contact.html#directions" class="footer-nav-link">Directions</a></li>
+            <li><a href="about.html#staff" class="footer-nav-link">Staff Directory</a></li>
+            <li><a href="new-here.html#faq" class="footer-nav-link">FAQ</a></li>
+            <li><a href="#" class="footer-nav-link">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Column 5: Give Block -->
+      <div class="footer-col-give">
+        <h4 class="footer-col-title">Give Online</h4>
+        <button class="footer-accordion-header">
+          <span>Give Online</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="footer-accordion-content">
+          <div class="footer-give-block">
+            <p class="footer-give-text">
+              Your generosity supports our ministries and outreach in our community and beyond.
+            </p>
+            <a href="javascript:void(0)" onclick="showToast('Online Giving', 'Thank you for your support! Secure giving portal is loading...')" class="btn btn-accent" style="text-align: center;">Give Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2024 St. John Presbyterian Church. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- --- PRAYER REQUEST MODAL --- -->
+  <div class="modal-overlay" id="prayer-modal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">Submit a Prayer Request</h3>
+        <button class="modal-close" aria-label="Close Modal">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="prayer-request-form">
+          <div class="form-group">
+            <label for="prayer-name" class="form-label">Your Name (Optional)</label>
+            <input type="text" id="prayer-name" class="form-input" placeholder="e.g. Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="prayer-email" class="form-label">Email Address (Optional)</label>
+            <input type="email" id="prayer-email" class="form-input" placeholder="e.g. jane@example.com">
+          </div>
+          <div class="form-group">
+            <label for="prayer-content" class="form-label">Your Prayer Request</label>
+            <textarea id="prayer-content" class="form-textarea" required placeholder="How can we pray for you?"></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-checkbox-label">
+              <input type="checkbox" id="prayer-anonymous">
+              <span>Keep this request anonymous / pastoral staff only</span>
+            </label>
+          </div>
+          <div class="form-btn-row">
+            <button type="submit" class="btn btn-accent">Submit Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

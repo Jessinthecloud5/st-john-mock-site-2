@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sermons - St. John Presbyterian Church</title>
+  <meta name="description" content="Watch Sunday services and stay connected with St. John Presbyterian Church online. Stream our latest sermon 'Walking in Faith'.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- --- HEADER & NAVIGATION --- -->
+  <header class="header" id="main-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo" id="header-logo-link">
+        <img src="images/logo.png" alt="St. John Presbyterian Church Logo" class="header-logo-img" id="header-logo-img">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu-wrapper">
+        <ul class="nav-menu" id="desktop-nav">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="new-here.html" class="nav-link">New Here?</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="missions.html" class="nav-link">Missions</a></li>
+          <li><a href="sermons.html" class="nav-link active">Sermons</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="index.html#give-section" class="btn btn-accent btn-give" id="header-give-btn">Give</a>
+        <button class="hamburger" id="menu-toggle" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu Overlay -->
+  <div class="mobile-drawer-overlay" id="menu-overlay"></div>
+  
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobile-menu-drawer">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+      <li><a href="new-here.html" class="mobile-nav-link">New Here?</a></li>
+      <li><a href="about.html" class="mobile-nav-link">About</a></li>
+      <li><a href="missions.html" class="mobile-nav-link">Missions</a></li>
+      <li><a href="sermons.html" class="mobile-nav-link active">Sermons</a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div style="margin-top: 2rem;">
+      <a href="index.html#give-section" class="btn btn-accent" style="width: 100%;" id="mobile-give-btn">Give Now</a>
+    </div>
+  </div>
+
+  <!-- --- HERO SECTION --- -->
+  <section class="hero-subpage fade-in-element visible">
+    <div class="container">
+      <h1 class="hero-subpage-title">Watch Our Sermons</h1>
+      <p class="hero-subpage-subtitle" style="margin-bottom: 2rem;">
+        Join us online and stay connected with worship throughout the week.
+      </p>
+      <a href="#latest-sermon" class="btn btn-filled">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;">
+          <circle cx="12" cy="12" r="10"></circle>
+          <polygon points="10 8 16 12 10 16 10 8"></polygon>
+        </svg>
+        Watch Latest Sermon
+      </a>
+    </div>
+  </section>
+
+  <!-- --- LATEST FACEBOOK LIVESTREAM --- -->
+  <section class="section fade-in-element" id="latest-sermon">
+    <div class="container">
+      <div class="section-title-wrap" style="margin-bottom:3rem;">
+        <div class="section-title-decor">
+          <h2>Latest Facebook Livestream</h2>
+        </div>
+      </div>
+
+      <div class="video-player-container" id="latest-sermon-player">
+        <div class="video-screen">
+          <div class="video-badge" id="player-badge">Facebook Livestream</div>
+          <button class="video-play-center" id="player-play-btn" aria-label="Play Sermon Video">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+          </button>
+          
+          <div class="video-controls">
+            <div class="video-timeline-wrap" id="player-timeline">
+              <div class="video-timeline-bar" id="player-timeline-bar"></div>
+            </div>
+            <div class="video-control-buttons">
+              <div class="video-control-left">
+                <button class="video-icon-btn" id="player-play-btn-ctrl" aria-label="Play/Pause">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                </button>
+                <span class="video-time" id="player-time-display">00:00 / 45:30</span>
+              </div>
+              <div class="video-control-right">
+                <button class="video-icon-btn" aria-label="Volume">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                  </svg>
+                </button>
+                <button class="video-icon-btn" aria-label="Settings">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                  </svg>
+                </button>
+                <button class="video-icon-btn" aria-label="Fullscreen">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-meta-block">
+        <div class="video-meta-header">
+          <div>
+            <h3 class="video-meta-title" id="sermon-title">Walking in Faith</h3>
+            <div class="video-meta-info">
+              <div class="video-meta-info-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span>May 19, 2024</span>
+              </div>
+              <div class="video-meta-info-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+                <span>Pastor John Doe</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="video-meta-desc" id="sermon-desc">
+          Join us for our Sunday worship service as we continue our series "Walking in Faith." We're glad you're here—worship with us live or watch anytime.
+        </p>
+      </div>
+
+      <!-- Previous Sermons Archive Block -->
+      <div class="previous-sermons-banner">
+        <div class="previous-sermons-icon flex-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="width:24px;height:24px;">
+            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+          </svg>
+        </div>
+        <h3>Looking for Previous Sermons?</h3>
+        <p>Browse our full sermon archive and livestream recordings on Facebook.</p>
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="btn btn-filled btn-accent">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:16px;height:16px;">
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+          Visit Facebook Sermon Archive
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- --- JOIN US THIS SUNDAY BANNER (9:45 Worship Time on Sermons page) --- -->
+  <section class="section section-bg fade-in-element" style="padding: 2rem 0 6rem 0;">
+    <div class="container">
+      <div class="banner-block">
+        <div class="banner-block-inner">
+          <div class="banner-block-info">
+            <div class="banner-block-text">
+              <h3>Join Us This Sunday</h3>
+            </div>
+            <div class="banner-details-list">
+              <div class="banner-detail-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+                <div>
+                  <div class="banner-detail-title">Sunday Worship</div>
+                  <div class="banner-detail-desc">9:45 AM</div>
+                </div>
+              </div>
+              <div class="banner-detail-item">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <div>
+                  <div class="banner-detail-title">4120 N. MacDill Ave.</div>
+                  <div class="banner-detail-desc">Tampa, FL 33607</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="banner-block-buttons">
+            <a href="contact.html" class="btn btn-filled">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Plan Your Visit
+            </a>
+            <a href="contact.html#contact-anchor" class="btn btn-outline">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- FOOTER --- -->
+  <footer class="footer" id="give-section">
+    <div class="container footer-grid">
+      
+      <!-- Column 1: Logo & Info -->
+      <div class="footer-col-logo">
+        <div class="footer-logo-wrap">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M 12 2 L 12 22 M 5 9 L 19 9" />
+            <circle cx="12" cy="9" r="3" />
+          </svg>
+          <div class="footer-logo-title">St. John<br><span style="font-family:var(--font-sans); font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-border-dark);">Presbyterian Church</span></div>
+        </div>
+        <p class="footer-desc">
+          Love God. Love People. Serve Together.
+        </p>
+        <div class="footer-social-icons">
+          <a href="https://facebook.com" class="footer-social-link" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+          <a href="https://instagram.com" class="footer-social-link" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://youtube.com" class="footer-social-link" aria-label="YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.517 3.545 12 3.545 12 3.545s-7.517 0-9.388.508a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.871.508 9.388.508 9.388.508s7.517 0 9.388-.508a3.002 3.002 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Column 2: Contact Info -->
+      <div class="footer-col-info">
+        <h4 class="footer-col-title">Contact Us</h4>
+        <button class="footer-accordion-header">
+          <span>Contact Us</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="footer-accordion-content">
+          <ul class="footer-info-list">
+            <li class="footer-info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>4120 N. MacDill Ave.<br>Tampa, FL 33607</span>
+            </li>
+            <li class="footer-info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>(813) 555-0199</span>
+            </li>
+            <li class="footer-info-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span><a href="mailto:info@stjohnpres.com">info@stjohnpres.com</a></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Column 3: Service Times -->
+      <div class="footer-col-times">
+        <h4 class="footer-col-title">Service Times</h4>
+        <button class="footer-accordion-header">
+          <span>Service Times</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="footer-accordion-content">
+          <div class="footer-service-times">
+            <div class="footer-time-row">
+              <span class="footer-time-label">Sunshine Class</span>
+              <span class="footer-time-value">Sundays at 9:45 AM</span>
+            </div>
+            <div class="footer-time-row">
+              <span class="footer-time-label">Adult Sunday School</span>
+              <span class="footer-time-value">Sundays at 10:30 AM</span>
+            </div>
+            <div class="footer-time-row">
+              <span class="footer-time-label">Worship Service</span>
+              <span class="footer-time-value">Sundays at 11:30 AM</span>
+            </div>
+            <div class="footer-time-row" style="border:none;">
+              <span class="footer-time-label">Facebook Livestream</span>
+              <span class="footer-time-value">Sundays at 11:30 AM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Column 4: Quick Links -->
+      <div class="footer-col-nav">
+        <h4 class="footer-col-title">Quick Links</h4>
+        <button class="footer-accordion-header">
+          <span>Quick Links</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="footer-accordion-content">
+          <ul class="footer-nav-list">
+            <li><a href="#" class="footer-nav-link" data-open-modal="prayer">Prayer Requests</a></li>
+            <li><a href="contact.html#directions" class="footer-nav-link">Directions</a></li>
+            <li><a href="about.html#staff" class="footer-nav-link">Staff Directory</a></li>
+            <li><a href="new-here.html#faq" class="footer-nav-link">FAQ</a></li>
+            <li><a href="#" class="footer-nav-link">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Column 5: Give Block -->
+      <div class="footer-col-give">
+        <h4 class="footer-col-title">Give Online</h4>
+        <button class="footer-accordion-header">
+          <span>Give Online</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+        <div class="footer-accordion-content">
+          <div class="footer-give-block">
+            <p class="footer-give-text">
+              Your generosity supports our ministries and outreach in our community and beyond.
+            </p>
+            <a href="javascript:void(0)" onclick="showToast('Online Giving', 'Thank you for your support! Secure giving portal is loading...')" class="btn btn-accent" style="text-align: center;">Give Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; 2024 St. John Presbyterian Church. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- --- PRAYER REQUEST MODAL --- -->
+  <div class="modal-overlay" id="prayer-modal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <h3 class="modal-title">Submit a Prayer Request</h3>
+        <button class="modal-close" aria-label="Close Modal">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form id="prayer-request-form">
+          <div class="form-group">
+            <label for="prayer-name" class="form-label">Your Name (Optional)</label>
+            <input type="text" id="prayer-name" class="form-input" placeholder="e.g. Jane Doe">
+          </div>
+          <div class="form-group">
+            <label for="prayer-email" class="form-label">Email Address (Optional)</label>
+            <input type="email" id="prayer-email" class="form-input" placeholder="e.g. jane@example.com">
+          </div>
+          <div class="form-group">
+            <label for="prayer-content" class="form-label">Your Prayer Request</label>
+            <textarea id="prayer-content" class="form-textarea" required placeholder="How can we pray for you?"></textarea>
+          </div>
+          <div class="form-group">
+            <label class="form-checkbox-label">
+              <input type="checkbox" id="prayer-anonymous">
+              <span>Keep this request anonymous / pastoral staff only</span>
+            </label>
+          </div>
+          <div class="form-btn-row">
+            <button type="submit" class="btn btn-accent">Submit Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

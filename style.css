@@ -415,6 +415,26 @@ a {
   transition: var(--transition-normal);
 }
 
+.drawer-close-btn {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: var(--color-primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.drawer-close-btn:hover {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
 .mobile-drawer.open {
   right: 0;
 }
@@ -473,8 +493,9 @@ a {
 /* --- Hero Sections --- */
 .hero-home {
   position: relative;
-  min-height: calc(100vh - 20px);
+  min-height: 520px;
   padding-top: calc(var(--header-height) + 2rem);
+  padding-bottom: 3rem;
   background-color: #f8fafc;
   display: flex;
   align-items: center;
@@ -2008,8 +2029,8 @@ a {
 @media (max-width: 1024px) {
   .hero-home {
     min-height: auto;
-    padding-top: calc(var(--header-height) + 4rem);
-    padding-bottom: 6rem;
+    padding-top: calc(var(--header-height) + 3rem);
+    padding-bottom: 4rem;
   }
   
   .hero-content {
@@ -2165,14 +2186,62 @@ a {
   .container {
     padding: 0 1.25rem;
   }
-  
+
+  /* Mobile hero: side-by-side layout matching wireframe */
+  .hero-home {
+    padding-top: calc(var(--header-height) + 1.5rem);
+    padding-bottom: 2rem;
+    min-height: auto;
+    align-items: flex-start;
+  }
+
+  .hero-home .container.grid-2 {
+    display: block;
+    position: relative;
+  }
+
+  .hero-content {
+    max-width: 60%;
+    text-align: left;
+  }
+
+  .hero-title {
+    font-size: clamp(1.6rem, 7vw, 2rem);
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero-illustration-wrap {
+    position: absolute;
+    top: 50%;
+    right: -1rem;
+    transform: translateY(-50%);
+    width: 48%;
+    max-width: none;
+    display: block;
+    opacity: 0.9;
+  }
+
   .hero-buttons {
     flex-direction: column;
     gap: 0.75rem;
   }
   
   .hero-buttons .btn {
-    width: 100%;
+    width: auto;
+    align-self: flex-start;
+  }
+
+  /* Show mobile subtitle text */
+  .hero-subtitle .mobile-text {
+    display: inline !important;
+  }
+  .hero-subtitle .desktop-text {
+    display: none !important;
   }
 
   /* Transform Home page "A Church That Makes A Difference" grid to List with chevrons on mobile */

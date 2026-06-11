@@ -35,6 +35,7 @@ function initMobileMenu() {
   const hamburger = document.querySelector('.hamburger');
   const drawer = document.querySelector('.mobile-drawer');
   const overlay = document.querySelector('.mobile-drawer-overlay');
+  const closeBtn = document.querySelector('.drawer-close-btn');
   const links = document.querySelectorAll('.mobile-nav-link');
 
   if (!hamburger || !drawer || !overlay) return;
@@ -61,6 +62,7 @@ function initMobileMenu() {
 
   hamburger.addEventListener('click', toggleMenu);
   overlay.addEventListener('click', closeMenu);
+  if (closeBtn) closeBtn.addEventListener('click', closeMenu);
   
   links.forEach(link => {
     link.addEventListener('click', closeMenu);
